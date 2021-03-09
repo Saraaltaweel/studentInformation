@@ -1,0 +1,65 @@
+body{
+    background-image:url('img/bg.jpg');
+}
+
+
+
+table{
+    border: 1px solid black;
+    position:absolute;
+    left: 800px;
+
+}
+tr th {
+    border: 1px solid black;
+
+}
+tr td{
+    border: 1px solid black;
+
+}
+header{
+    background-color:cadetblue;
+    height: 70px;
+}
+header h1{
+    text-align: center;
+    top: 20px;
+}
+header nav ul {
+    
+  
+   position: absolute;
+   left: 1000px;
+   padding: 20px;
+   bottom: 580px;
+   
+}
+header nav ul li{
+    display: inline-block;
+    margin: 20px;
+}
+.form{
+background-color: cadetblue;
+
+
+}
+input{
+    width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  /* outline: none; */
+}
+select{
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
